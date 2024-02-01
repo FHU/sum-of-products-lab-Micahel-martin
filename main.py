@@ -8,6 +8,9 @@ def sum_of_products(list1, list2):
 if __name__ == '__main__':
     in1 = (input()).split()
     in2= (input()).split()
-else:
-    print('Error.')
+    if len(in1) == len(in2):
+        result= sum_of_products(in1, in2)
+        print (result)
+    else:
+        print('Error.')
 

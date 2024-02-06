@@ -5,8 +5,7 @@ def sum_of_products(list1, list2):
     for i in range(len(list1)):
         math_sum +=(int(list1[i]) * int(list2[i]))
         return math_sum
-
-if __name__ == '__main__':
+        
     in1 = (input()).split()
     in2= (input()).split()
     if len(in1) == len(in2):
@@ -15,4 +14,5 @@ if __name__ == '__main__':
     else:
         print('Error.')
 
-#fix?
+if __name__ == '__main__':
+    pass
